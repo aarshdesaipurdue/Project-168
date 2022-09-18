@@ -29,7 +29,7 @@ for i in range(len(words)):
             print("Success! The password is: "+word)
             endtime = time.time()
             result = 1
-            break
+        break
     except:
         pass
 if (result==0):
